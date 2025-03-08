@@ -154,7 +154,7 @@ void detectBpm(const std::string& filepath) {
 }
 
 int main() {
-    std::string folder = "/Users/Jenna/Music/";  // Replace with the actual folder path
+    std::string folder = "/multithreaded-dj-app/music";  // Replace with the actual folder path
     listWavFiles(folder);
 
     std::vector<std::thread> threads;
